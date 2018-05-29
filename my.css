@@ -1,6 +1,9 @@
 html{
     height: 100%
 }
+body{
+ font-size: 100%;   
+}
 #content {
     position: absolute;
     z-index: 0;
@@ -38,7 +41,7 @@ html{
 }
 
 .link {
-  font-size: 30px;
+  font-size: .5em;
   padding: 15px;
   transition: all .5s ease;
 }
