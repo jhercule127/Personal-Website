@@ -8,10 +8,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- documentation at http://getbootstrap.com/, alternative themes at https://www.bootstrapcdn.com/bootswatch/ -->
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
      <!-- http://jquery.com/ -->
     <script src="https://code.jquery.com/jquery-latest.min.js"></script>
     <!-- http://getbootstrap.com/ -->
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 3000
+    })
+  });
+</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/f6af321b1b.js"></script>
    <link rel="stylesheet" type="text/css" href="my.css"/>
@@ -19,64 +27,69 @@
 
     <body>
 
-<div class="container" id="relatively">
-<h1>Hi, Welcome ! <img src="Pic001.jpg" id="img-round" style="float:right"  ></h1>
-    <h4 >I'm Jonathan Hercules currently studying at the University at Buffalo.</h4>
-    <a class="link" href="https://www.linkedin.com/in/jonathan-hercules-a5b616126" title=Linkedin> 
-        <i class="fa fa-linkedin"></i> </a>
-    <a class="link" href="https://github.com/jhercule127" title=Github> <i class="fa fa-github" ></i></a>
-    <a class="link" href="https://www.facebook.com/jonathan.hercules.56" title=Facebook> <i class="fa fa-facebook-official" ></i> </a>
+
+<div class="jumbotron">
+  <div class="container">
+  <h2>Jonathan Hercules  <img src="Pic002.jpg" id="img-round" style="float:right"  ></h2>
+      <div class="info">
+
+       Currently pursuing a Bachelor of Science in Computer Science.
+       I enjoy working out at the gym and playing soccer.I am familiar with Java,Python,and C++. Thank you for visiting my website
+       and feel free to contact me via <a href="malito:jherc127@gmail.com"> email</a>.
+      </div>
+      <br>
+      <a href="/home/jherc127/Website/Resume.pdf" class="btn btn-primary" >Resume</a>
+
+      <a href="#content1" class="btn btn-primary" data-toggle="collapse"  date-parent = "accordion">Personal Projects</a>
+
+      <div class="collapse" >
+      <div class="about">
+              <div id="bord">
+
+              </div>
+          </div>
+
+      </div>
+
+      <a href="#content2" class="btn btn-primary" data-toggle="collapse"  date-parent = "accordion">Extracurricular</a>
+
+      <div class="collapse" id="content2">
+      <div class="about">
+              <div id="bord">
+
+              </div>
+          </div>
+
+      </div>
+
+  </div>
 </div>
-        
-<br>
-
-<div class="container" id="accordion">
-    <a href="#content0" class="btn btn-lg btn-block" data-toggle="collapse"  date-parent = "accordion">About Me</a>
-    
-    <div class="collapse" id="content0">
-        <div class="about">
-            <div id="round">
-     <h4>From :</h4>
-         Port Washington, NY
-     <h4>Education : </h4>
-     Graduated from Paul D Schreiber High School and
-     currently seeking a Bachelor of Science in Computer Science and a minor in Mathematics  
-     <h4>Favorite Activities :</h4>
-        I enjoy working out at the gym and playing soccer. I also enjoy reading
-        books about various topics especially about science and technology.
-        <h4>Skills :</h4>
-        Java 
-            </div>
-        </div>
-    </div>
-    <br>
-          <a href="#content1" class="btn btn-lg btn-block" data-toggle="collapse"  date-parent = "accordion">Projects</a>
-    
-    <div class="collapse" id="content1">
-    <div class="about">
-            <div id="round">
-            </div>
-        </div>
-    
-    </div>
-    <br>
-    <a href="#content2" class="btn btn-lg btn-block" data-toggle="collapse"  date-parent = "accordion">Extracurricular</a>
-    
-    <div class="collapse" id="content2">
-    <div class="about">
-            <div id="round">
-     <h4>Member of UB ACM</h4>
-         
-            </div>
-        </div>
-    
-    </div>
-    
-</div>
+<
 
 
-    
-    
-    
+  <h3 style="text-align:center" >Where I'm at</h3>
+  <div class="carousel slide" style="width: 60px; margin: 0 auto" data-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="item active text center">
+        <a class="link" href="https://www.linkedin.com/in/jonathan-hercules-a5b616126" >
+            <i class="fa fa-linkedin"></i> </a>
+      </div>
+      <div class="item text center">
+        <a class="link" href="https://github.com/jhercule127" > <i class="fa fa-github" ></i></a>
+      </div>
+
+      <div class="item text center">
+        <a class="link" href="https://www.facebook.com/jonathan.hercules.56" > <i class="fa fa-facebook-official" ></i> </a>
+      </div>
+    </div>
+  </div>
+
+
+
+<footer>
+      &copy Created by Jonathan Hercules
+  </footer>
+
     </body>
 </html>
