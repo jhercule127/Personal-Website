@@ -53,26 +53,7 @@ $(document).ready(function(){ //document is loaded
   });
 });
 
-/*========== BOUNCING DOWN ARROW ==========*/
-//down arrow at top
-$(document).ready(function(){
-$(window).scroll(function(){ //browser scroll 
-    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); //set opacity css from 1 to -(negative) infinity of element with class 'arrow'
-  //250 is fade pixels
-  });
-});
 
-
-/*========== SKILLS COUNTER ==========*/
-
-$(document).ready(function() { //when document is ready
-        $('.counter').counterUp({
-            delay: 10, //delay in milliseconds per count up
-            time: 1800 //total time taken by the animation
-        });
-    });
-
-});
 
 /*========== TOP SCROLL BUTTON ==========*/
 
@@ -101,32 +82,3 @@ $(document).ready(function(){
 
 */
 
-//UPDATE ADDITION: MAKE PRICING & TEAM SECTIONS COLUMN HEIGHT EQUAL
-/*
-
-$(document).ready(function(){
-
-    // Select and loop the container element of the elements you want to equalise
-    $('.row').each(function(){  
-      
-      // Cache the highest
-      var highestBox = 0;
-      
-      // Select and loop the elements you want to equalise
-      $('.pricing-column,.card-body', this).each(function(){
-        
-        // If this box is higher than the cached highest then store it
-        if($(this).height() > highestBox) {
-          highestBox = $(this).height(); 
-        }
-      
-      });  
-            
-      // Set the height of all those children to whichever was highest 
-      $('.pricing-column,.card-body',this).height(highestBox);
-                    
-    }); 
-
-});
-
-*/
