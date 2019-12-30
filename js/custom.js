@@ -43,7 +43,7 @@ $(document).ready(function(){ //document is loaded
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({ //animate whole html and body elements
         scrollTop: $(hash).offset().top //scroll to the element with that hash
-      }, 800, function(){
+      }, 2400, function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash; //website.com - website.com#home
