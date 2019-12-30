@@ -53,32 +53,3 @@ $(document).ready(function(){ //document is loaded
   });
 });
 
-
-
-/*========== TOP SCROLL BUTTON ==========*/
-
-$(document).ready(function() { //when document is ready
-  $(window).scroll(function() { //when webpage is scrolled
-    if ($(this).scrollTop() > 500) { //if scroll from top is more than 500
-      $('.top-scroll').fadeIn(); //display element with class 'top-scroll'; opacity increases
-    } else { //if not
-      $('.top-scroll').fadeOut(); //hide element with class 'top-scroll'; opacity decreases
-    }
-  });
-});
-
-
-//Optional Refresh Page at top of document on load instead of at # hash
-/*
-
-$(document).ready(function(){
-    $('html, body').scrollTop(0);
-    $(window).on('load', function() {
-    setTimeout(function(){
-        $('html, body').scrollTop(0);
-    }, 0);
- });
-});
-
-*/
-
