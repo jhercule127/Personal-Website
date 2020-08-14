@@ -160,6 +160,7 @@ img.center{
     color: #e9ecef;
 }
 
+
 /*------------Portfolio Section ----------*/
 .row.padding {
     padding: 2rem 0 1rem;
@@ -237,7 +238,11 @@ input.btn {
 hr.socket {
     border-top: .2rem solid #666b71;
     width: 100%;
+    text-align: center;
 }
+
+
+
 /*============ BOOTSTRAP BREAK POINTS:
 
 Extra small (xs) devices (portrait phones, less than 576px)
